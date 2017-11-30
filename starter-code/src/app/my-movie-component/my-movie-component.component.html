@@ -1,3 +1,28 @@
-<p>
-  my-movie-component works!
-</p>
+<div class="all">
+  <p class="title">{{ movie.title }}</p>
+  <div class="img">
+    <p>Room: {{ movie.room }}</p>
+    <img src="{{ movie.poster }}" width="300px" height="400px" />
+  </div>
+  <div class="text">
+    <h4>Genres:</h4>
+    <ul>
+      <li *ngFor="let x of movie.genres">{{ x }}</li>
+    </ul>
+    <h4>Year:</h4>
+    <p> {{ movie.year }}</p>
+<h4>Director:</h4>
+    <p> {{ movie.director }}</p>
+    <h4>Actors:</h4>
+    <ul>
+      <li *ngFor="let x of movie.actors">{{ x }}</li>
+    </ul>
+   <h4>Schedules:</h4>
+    <ul>
+      <li *ngFor="let x of movie.hours">{{ x }}</li>
+    </ul>
+  <h4>Synopsis:</h4>
+    <p> {{ movie.synopsis }}</p>
+  </div>
+</div>
+<a class="btn-home" [routerLink]="['/home']">Home</a>

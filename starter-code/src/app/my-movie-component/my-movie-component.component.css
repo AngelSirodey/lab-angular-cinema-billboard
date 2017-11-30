@@ -1,0 +1,25 @@
+.all {
+display: inline-block;
+width: 100%;
+}
+
+.img {
+display: inline-block;
+width: 48%;
+text-align: center;
+vertical-align: top;
+}
+
+.text {
+  display: inline-block;
+  width: 48%;
+
+}
+
+.title {
+font-size: 3em;
+text-align: center;
+font-family: sans-serif;
+text-decoration-line: underline;
+color: rgb(14, 14, 124);
+}

@@ -1,0 +1,11 @@
+.movies {
+  display: inline-block;
+  padding: 0px 30px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: blue
+}
